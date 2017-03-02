@@ -1,0 +1,41 @@
+{
+  "name": "alpine-stack/alpine",
+  "description": "Track their professional progress",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrzej Kostrzewa",
+      "email": "com.kontakt@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "~7.1",
+    "andrewprofile/common": "dev-master",
+    "doctrine/orm": "~2.5"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "~3.0",
+    "phpunit/phpunit": "~6.0"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:andrewprofile/common.git",
+      "no-api": true
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Alpine\\": "src/Alpine/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Alpine\\Tests\\": "tests/Alpine/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}

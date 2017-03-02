@@ -1,0 +1,6 @@
+suites:
+    alpine:
+        spec_path: ./tests/Alpine
+        spec_prefix: Spec
+        namespace: Alpine
+        src_path: ./src
