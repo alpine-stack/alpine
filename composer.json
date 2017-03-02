@@ -11,8 +11,9 @@
   ],
   "require": {
     "php": "~7.1",
-    "andrewprofile/common": "dev-master",
-    "doctrine/orm": "~2.5"
+    "alpine-stack/common": "dev-master",
+    "doctrine/orm": "~2.5",
+    "roave/security-advisories": "dev-master"
   },
   "require-dev": {
     "phpspec/phpspec": "~3.0",
@@ -21,7 +22,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "git@github.com:andrewprofile/common.git",
+      "url": "git@github.com:alpine-stack/common.git",
       "no-api": true
     }
   ],
